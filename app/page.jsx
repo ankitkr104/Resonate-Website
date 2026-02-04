@@ -28,12 +28,16 @@ export default function Home() {
       touchMultiplier: 2,
     });
 
+    let rafId;
+    let isActive = true;
+
     function raf(time) {
+      if (!isActive) return;
       lenis.raf(time);
-      requestAnimationFrame(raf);
+      rafId = requestAnimationFrame(raf);
     }
 
-    requestAnimationFrame(raf);
+    rafId = requestAnimationFrame(raf);
 
     // GSAP Animations
 
@@ -206,8 +210,11 @@ export default function Home() {
         "-=0.4",
       );
 
-    // Cleanup function
     return () => {
+      isActive = false;
+      if (rafId != null) {
+        cancelAnimationFrame(rafId);
+      }
       lenis.destroy();
       ScrollTrigger.getAll().forEach((t) => t.kill());
     };

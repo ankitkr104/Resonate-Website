@@ -9,10 +9,11 @@ const Hero = () => {
       <div className="hero-container">
         <div className="hero-image">
           <Image
-            width="100%"
-            height="100%"
             src={phoneImage}
             alt="Resonate App on Phone"
+            sizes="(max-width: 768px) 80vw, 40vw"
+            style={{ width: "100%", height: "auto" }}
+            priority
           />
         </div>
         <div className="hero-content">
