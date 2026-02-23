@@ -39,7 +39,7 @@ const About = () => {
             <a href="https://x.com/aossie_org">
               <BsTwitterX />
             </a>
-            <a href="https://youtu.be/IWtFc72BNhM?si=LbgN2t3A3pOE4P-Y">
+            <a href="https://youtu.be/IWtFc72BNhM?si=LbgN2t3A3pOE4P-Y" target="_blank">
               <FaYoutube />
             </a>
           </div>
