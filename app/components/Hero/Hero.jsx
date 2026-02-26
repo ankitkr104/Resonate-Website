@@ -18,13 +18,13 @@ const Hero = () => {
         </div>
         <div className="hero-content">
           <div className="yellow-gradient-bg"></div>
-          <h1>
+          <h1 className="heading-xl">
             Clubhouse,
             <br />
             but Open Source
           </h1>
-          <h2>A social voice platform.</h2>
-          <p className="maintained-by">
+          <h2 className="heading-xl">A social voice platform.</h2>
+          <p className="maintained-by body-md">
             A Project Maintained by{" "}
             <a href="https://aossie.org" className="aossie-link">
               AOSSIE
@@ -53,7 +53,7 @@ const Hero = () => {
       </div>
 
       <div className="hero-description-container">
-        <p>
+        <p className="body-md">
           With the rising popularity of social voice platforms such as Clubhouse
           and Twitter Spaces, it is high time for an Open Source alternative. A
           platform like this would not only enhance credibility within the

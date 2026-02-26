@@ -16,9 +16,11 @@
 }
 
 .download-app-card h2 {
-  font-size: 2.5rem;
+  font-size: var(--text-heading-xl-size);
+  font-weight: var(--text-subheading-l-weight);
+  line-height: var(--text-heading-xl-lineheight);
+  letter-spacing: var(--text-heading-xl-letterspacing);
   margin-bottom: 2rem;
-  font-weight: 400;
 }
 
 .store-buttons {
@@ -79,9 +81,11 @@
 }
 
 .store-title {
-  font-size: 18px;
-  font-weight: 600;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: var(--text-caption-sm-size);
+  font-weight: var(--text-heading-xl-weight);
+  line-height: var(--text-caption-sm-lineheight);
+  letter-spacing: var(--text-caption-sm-letterspacing);
+  font-family: var(--font-family-base);
 }
 
 .download-actions {

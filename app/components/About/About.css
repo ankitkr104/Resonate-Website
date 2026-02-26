@@ -30,16 +30,19 @@
 }
 
 .about-content h2 {
-  font-size: 2.5rem;
-  line-height: 1.2;
+  font-size: var(--text-heading-xl-size);
+  font-weight: var(--text-heading-xl-weight);
+  line-height: var(--text-heading-xl-lineheight);
+  letter-spacing: var(--text-heading-xl-letterspacing);
   margin-bottom: 1.5rem;
-  font-weight: 700;
   color: #1a1a1a;
 }
 
 .about-content p {
-  font-size: 1rem;
-  line-height: 1.6;
+  font-size: var(--text-body-md-size);
+  font-weight: var(--text-body-md-weight);
+  line-height: var(--text-body-md-lineheight);
+  letter-spacing: var(--text-body-md-letterspacing);
   color: #555;
   margin-bottom: 2rem;
 }

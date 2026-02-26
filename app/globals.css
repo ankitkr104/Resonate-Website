@@ -1,5 +1,33 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
 
+:root {
+  --font-family-base: 'Inter', sans-serif;
+  
+  /* Heading XL */
+  --text-heading-xl-size: 56px;
+  --text-heading-xl-weight: 700;
+  --text-heading-xl-lineheight: 60px;
+  --text-heading-xl-letterspacing: 0px;
+  
+  /* Subheading L */
+  --text-subheading-l-size: 56px;
+  --text-subheading-l-weight: 300;
+  --text-subheading-l-lineheight: 60px;
+  --text-subheading-l-letterspacing: 0px;
+  
+  /* Body Medium */
+  --text-body-md-size: 32px;
+  --text-body-md-weight: 500;
+  --text-body-md-lineheight: 36px;
+  --text-body-md-letterspacing: 0px;
+  
+  /* Caption Small */
+  --text-caption-sm-size: 20px;
+  --text-caption-sm-weight: 400;
+  --text-caption-sm-lineheight: 30px;
+  --text-caption-sm-letterspacing: 0px;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -7,9 +35,7 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
+  font-family: var(--font-family-base);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -23,4 +49,37 @@ code {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+}
+
+/* Typography Utility Classes */
+.heading-xl {
+  font-family: var(--font-family-base);
+  font-size: var(--text-heading-xl-size);
+  font-weight: var(--text-heading-xl-weight);
+  line-height: var(--text-heading-xl-lineheight);
+  letter-spacing: var(--text-heading-xl-letterspacing);
+}
+
+.subheading-l {
+  font-family: var(--font-family-base);
+  font-size: var(--text-subheading-l-size);
+  font-weight: var(--text-subheading-l-weight);
+  line-height: var(--text-subheading-l-lineheight);
+  letter-spacing: var(--text-subheading-l-letterspacing);
+}
+
+.body-md {
+  font-family: var(--font-family-base);
+  font-size: var(--text-body-md-size);
+  font-weight: var(--text-body-md-weight);
+  line-height: var(--text-body-md-lineheight);
+  letter-spacing: var(--text-body-md-letterspacing);
+}
+
+.caption-sm {
+  font-family: var(--font-family-base);
+  font-size: var(--text-caption-sm-size);
+  font-weight: var(--text-caption-sm-weight);
+  line-height: var(--text-caption-sm-lineheight);
+  letter-spacing: var(--text-caption-sm-letterspacing);
 }

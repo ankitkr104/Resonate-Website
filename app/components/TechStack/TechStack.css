@@ -13,7 +13,10 @@
 }
 
 .tech-stack h2 {
-  font-size: 2rem;
+  font-size: var(--text-heading-xl-size);
+  font-weight: var(--text-heading-xl-weight);
+  line-height: var(--text-heading-xl-lineheight);
+  letter-spacing: var(--text-heading-xl-letterspacing);
   margin-bottom: 3rem;
   text-decoration: underline;
   text-underline-offset: 10px;

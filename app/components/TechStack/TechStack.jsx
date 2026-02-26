@@ -6,7 +6,7 @@ const TechStack = () => {
   return (
     <section className="tech-stack-container">
       <div className="tech-stack">
-        <h2>TECH STACK</h2>
+        <h2 className="heading-xl">TECH STACK</h2>
         <div className="tech-logos">
           <div className="tech-logo">
             <img src={flutterLogo.src} alt="Flutter" />

@@ -12,12 +12,12 @@ const About = () => {
           <img src={AossieLogo.src} alt="AOSSIE Logo" />
         </div>
         <div className="about-content">
-          <h2>
+          <h2 className="heading-xl">
             We Innovate
             <br />
             We Educate
           </h2>
-          <p>
+          <p className="body-md">
             We are an Australian not-for-profit umbrella organization for
             open-source projects. We believe the open-source philosophy provides
             a resource-efficient channel to transfer knowledge and achieve

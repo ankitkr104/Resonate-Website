@@ -52,7 +52,7 @@ const Features = () => {
             />
           </div>
           <div className="feature-content">
-            <h3>
+            <h3 className="subheading-l">
               <span className="feature-number">{feature.id}.</span>{" "}
               {feature.title}
             </h3>

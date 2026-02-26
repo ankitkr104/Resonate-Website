@@ -8,7 +8,7 @@ const DownloadApp = () => {
     <section className="download-app-section">
       <div className="download-app-card">
         <div className="download-text-wrapper">
-          <h2>Get the Resonate Mobile app.</h2>
+          <h2 className="heading-xl">Get the Resonate Mobile app.</h2>
 
           <div className="download-actions">
             <div className="store-buttons">
